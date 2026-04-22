@@ -1,9 +1,14 @@
 # SexRatioBehaviorGenetics
 Code related to the Brief Report
-Harper K, Kuja-Halkola R, Verweij KJH, Magnusson PKE, Zietsch BP. No Evidence of Genetic Basis to Variation in Human Offspring Sex Ratio. Beh Gen.
+
+Harper K, Kuja-Halkola R, Verweij KJH, Magnusson PKE, Zietsch BP. No Evidence of Genetic Basis to Variation in Human Offspring Sex Ratio. Beh Gen 2026.
+
 Rebutting some of the conclusions in the article
+
 Song S, Zhang J. In search of the genetic variants of human sex ratio at birth: was Fisher wrong about sex ratio evolution? Proc Biol Sci. Oct 2024;291(2033):20241876. doi:10.1098/rspb.2024.1876
+
 Which includes a critique of the conclusions from paper 
+
 Zietsch BP, Walum H, Lichtenstein P, Verweij KJH, Kuja-Halkola R. No genetic contribution to variation in human offspring sex ratio: a total population study of 4.7 million births. Proc Biol Sci. 2020;287(1921):20192849. DOI: 10.1098/rspb.2019.2849
 
 Software version used:
@@ -15,7 +20,7 @@ Authors of code shared:
 Ralf Kuja-Halkola, 01, 02, 03, 04.
 Kaitlyn Harper, 05.
 
-The simulations in first files (01) is free of external data. The simulation in sexond and last file (02 and 04) uses data on family structure from Zietsch et al, data cannot be shared openly.
+The simulations in first files (01) is free of external data. The simulation in second and fourth file (02 and 04) uses data on family structure from Zietsch et al, this data cannot be shared openly.
 
 Files and short description:
 
