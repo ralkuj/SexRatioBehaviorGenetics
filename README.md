@@ -33,8 +33,8 @@ Files and short description:
 03.SNP_simulations_Plotting_20251210.R
 - Plots the above simulations.
 
-04.SexRatio_simulations_Normal_liability_20250225.R
-- Performs a simulation using the relative structure from Zietsch et al to find statistical power for detecting non-null heritability under assumed model with offspring sex allocation drawn from a bernoulli ditribution with probability distributed according to a normal distribution centered aroun 0.5 and varying variance. The variances include the variance used in Song&Zhang, but also smaller and larger variances.
+04.SexRatio_simulations_Normal_liability_20250814.R
+- Performs a simulation using the relative structure from Zietsch et al to find statistical power for detecting non-null heritability under assumed model with offspring sex allocation drawn from a bernoulli ditribution with probability distributed according to a normal distribution centered around 0.5 and varying heritability and variance. The variances include the variance used in Song&Zhang, but also smaller and larger variances.
 
 05.SZ_SLiM_Plotting.R
 - Plots Song and Zhang's SLiM Fisher's Principle simulation results.
@@ -54,8 +54,13 @@ SimulationSNP_FamilyStructure_male_First_1000repeats_20251209.Rds
 SimulationSNP_FamilyStructure_male_First_Xtra0075_1000repeats_20251209.Rds
 - Simulation based on Song&Zhangs one SNP approach, using one known family structure and only first-born offspring. Produced in 02.SNP_simulations_FamilyStructure_20251209.R.
 
-Simulation_Realdata_Male_1000repeats_20241107.Rds
-- Simulation mirroring the Zietsch et al paper, using known family structure, for different assumed variances of offspring sex probability. Produced in 04.SexRatio_simulations_Normal_liability_20250225.R.
+Simulation_Realdata_Male_1000repeats_h2_100percent_20250814.Rds
+Simulation_Realdata_Male_1000repeats_h2_20percent_20250814.Rds
+Simulation_Realdata_Male_1000repeats_h2_40percent_20250814.Rds
+Simulation_Realdata_Male_1000repeats_h2_43percent_20250812.Rds
+Simulation_Realdata_Male_1000repeats_h2_60percent_20250814.Rds
+Simulation_Realdata_Male_1000repeats_h2_80percent_20250814.Rds
+- Simulations mirroring the Zietsch et al paper, using known family structure, for different assumed heritability and variances of offspring sex probability. Produced in 04.SexRatio_simulations_Normal_liability_20250814.R.
 
 SongZhang-original_(height_sims)summary.tsv
 - Song & Zhang's original height simulations results.
